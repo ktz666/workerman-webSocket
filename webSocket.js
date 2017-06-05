@@ -2,7 +2,7 @@
 
 var uid = '100001';
 
-ws = new WebSocket("ws://xx.xxx.xxx.xx");
+ws = new WebSocket("ws://xx.xxx.xxx.xx:2345");
 
 ws.onopen = function() {
     ws.send(uid);
